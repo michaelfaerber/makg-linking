@@ -69,14 +69,14 @@ __Overall findings:__
 * We could create 5,472,038 mappings between papers modeled in Wikidata and papers modeled in the MAKG. This corresponds to 2.61% of the MAG's papers and 33.52% of the Wikidata's papers.
 
 ## Contact & More Information
-More information can be found in my ISWC'19 paper (The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data)[http://dbis.informatik.uni-freiburg.de/content/team/faerber/papers/MAKG_ISWC2019.pdf].
+More information can be found in my ISWC'19 paper [The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data](http://dbis.informatik.uni-freiburg.de/content/team/faerber/papers/MAKG_ISWC2019.pdf).
 
 Feel free to reach out to me in case of questions or comments:
 
 [Michael Färber](https://sites.google.com/view/michaelfaerber), michael.faerber@kit.edu
 
 ## How to Cite
-Please cite (my work)[http://dbis.informatik.uni-freiburg.de/content/team/faerber/papers/MAKG_ISWC2019.pdf] as follows:
+Please cite my work (described in [this paper](http://dbis.informatik.uni-freiburg.de/content/team/faerber/papers/MAKG_ISWC2019.pdf)) as follows:
 ```
 @inproceedings{DBLP:conf/semweb/Farber19,
   author    = {Michael F{\"{a}}rber},
