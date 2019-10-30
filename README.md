@@ -1,5 +1,5 @@
 ### Mappings between the MAKG and OpenCitations/Wikidata
-This repository provides code for generating owl:sameAs links between instances in the [Microsoft Academic Knowledge Graph (MAKG)](http://ma-graph.org) and [OpenCitations](http://opencitations.net)/[Wikidata](http://wikidata.org).
+This repository provides code for generating owl:sameAs links between instances in the [Microsoft Academic Knowledge Graph (MAKG)](http://ma-graph.org) and [OpenCitations](http://opencitations.net)/[Wikidata](http://wikidata.org). For more background information, see my repository [MAKG] and the ISWC 2019 paper [The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data].
 
 ## Wikidata <-> MAKG
 Mapping instances of Wikidata to the MAKG is done using __map_wikidata_to_mag.py__. This produces 2 files:
@@ -68,3 +68,27 @@ __Overall findings:__
 * We could create 15,666,233 mappings between papers modeled in OpenCitations and papers modeled in the MAKG. This corresponds to 7.47% of the MAG's papers (v2018-11) and 3.48% of OpenCitations' papers.
 * We could create 5,472,038 mappings between papers modeled in Wikidata and papers modeled in the MAKG. This corresponds to 2.61% of the MAG's papers and 33.52% of the Wikidata's papers.
 
+## Contact & More Information
+More information can be found in my ISWC'19 paper (The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data)[http://dbis.informatik.uni-freiburg.de/content/team/faerber/papers/MAKG_ISWC2019.pdf].
+
+Feel free to reach out to me in case of questions or comments:
+
+[Michael Färber](https://sites.google.com/view/michaelfaerber), michael.faerber@kit.edu
+
+## How to Cite
+Please cite (my work)[http://dbis.informatik.uni-freiburg.de/content/team/faerber/papers/MAKG_ISWC2019.pdf] as follows:
+```
+@inproceedings{DBLP:conf/semweb/Farber19,
+  author    = {Michael F{\"{a}}rber},
+  title     = "{The Microsoft Academic Knowledge Graph: {A} Linked Data Source with
+               8 Billion Triples of Scholarly Data}",
+  booktitle = "{Proceedings of the 18th International Semantic Web Conference}",
+  series    = "{ISWC'19}",
+  location  = "{Auckland, New Zealand}",
+  pages     = {113--129},
+  year      = {2019},
+  url       = {https://doi.org/10.1007/978-3-030-30796-7\_8},
+  doi       = {10.1007/978-3-030-30796-7\_8}
+}
+
+```
