@@ -91,3 +91,6 @@ Please cite my work (described in [this paper](http://dbis.informatik.uni-freibu
 }
 
 ```
+
+## Last Major Update
+2020-07-09
