@@ -1,6 +1,8 @@
 ### Mappings between the MAKG and OpenCitations/Wikidata
 This repository provides code for generating owl:sameAs links between instances in the [Microsoft Academic Knowledge Graph (MAKG)](http://ma-graph.org) and [OpenCitations](http://opencitations.net)/[Wikidata](http://wikidata.org). For more background information, see my repository [MAKG](http://ma-graph.org) and the ISWC 2019 paper [The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data](http://dbis.informatik.uni-freiburg.de/content/team/faerber/papers/MAKG_ISWC2019.pdf).
 
+The numbers mentioned below are with respect to the MAKG version 2019-12-26.
+
 ## Wikidata <-> MAKG
 Start by filtering the Wikidata dataset with __filter_wikidata_papers.py__.
 Mapping instances of Wikidata to the MAKG is done using __map_wikidata_to_mag.py__. This produces 2 files:
